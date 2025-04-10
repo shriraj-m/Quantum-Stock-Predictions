@@ -1,0 +1,7 @@
+pennylane
+torch
+yfinance
+pandas
+numpy
+scikit-learn
+
