@@ -10,7 +10,7 @@ def load_stock_data(symbol: str, sequence_length, train_split=0.8):
     df = df['Close'].values.reshape(-1,1)
 
     scaler = MinMaxScaler()
-    scaled_df = scaler.transform(df)
+    scaled_df = scaler.fit_transform(df)
 
     X = []
     y = []
